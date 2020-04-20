@@ -23,7 +23,7 @@ public class BlackPanelController : MonoBehaviour {
 	{
 		if (score != null)
 		{
-			if (score.score > 300)
+			if (score.score >= 300)
 			{
 				myAnimator.SetBool("fadeIn", true);
 
